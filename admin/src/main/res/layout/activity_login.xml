@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#1f1a30"
+    android:layout_height="match_parent"
+    tools:context=".Login.LoginActivity">
+
+    <EditText
+        android:id="@+id/userRegisterEmail"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Admin Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userRegisterPass"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="96dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Admin Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userRegisterEmail" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="159dp"
+        android:background="@drawable/edittext"
+        android:text="LoGIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userRegisterPass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
